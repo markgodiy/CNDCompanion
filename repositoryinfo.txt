@@ -1,0 +1,42 @@
+$WingetCommonID = @{
+"Google Chrome"             = "Google.Chrome"
+"Microsoft Edge" = "Microsoft.Edge"
+"Mozilla Firefox"           = "Mozilla.Firefox"
+"Adobe Acrobat Reader DC x64"   = "Adobe.Acrobat.Reader.64-bit"
+"Adobe Acrobat Reader DC x32"   = "Adobe.Acrobat.Reader.32-bit"
+"Visual Studio Code"        = "Microsoft.VisualStudioCode"
+"Microsoft SQL Server"      = "Microsoft.SQLServer"
+}
+
+$dotnetVersion6Packages = @{
+    "Microsoft .NET SDK 6.0" = "Microsoft.DotNet.SDK.6"
+    "Microsoft .NET Runtime 6.0" = "Microsoft.DotNet.Runtime.6"
+    "Microsoft ASP.NET Core Hosting Bundle 6.0" = "Microsoft.DotNet.HostingBundle.6"
+    "Microsoft ASP.NET Core Runtime 6.0" = "Microsoft.DotNet.AspNetCore.6"
+    "Microsoft .NET Windows Desktop Runtime 6.0" = "Microsoft.DotNet.DesktopRuntime.6"
+}
+
+$dotnetVersion7Packages = @{
+    "Microsoft .NET SDK 7.0" = "Microsoft.DotNet.SDK.7"
+    "Microsoft .NET Runtime 7.0" = "Microsoft.DotNet.Runtime.7"
+    "Microsoft ASP.NET Core Hosting Bundle 7.0" = "Microsoft.DotNet.HostingBundle.7"
+    "Microsoft ASP.NET Core Runtime 7.0" = "Microsoft.DotNet.AspNetCore.7"
+    "Microsoft .NET Windows Desktop Runtime 7.0" = "Microsoft.DotNet.DesktopRuntime.7"
+}
+
+$dotnetVersion8Packages = @{
+    "Microsoft .NET SDK 8.0 Preview" = "Microsoft.DotNet.SDK.Preview"
+    "Microsoft .NET Runtime 8.0 Preview" = "Microsoft.DotNet.Runtime.Preview"
+    "Microsoft ASP.NET Core Hosting Bundle 8.0 Preview" = "Microsoft.DotNet.HostingBundle.Preview"
+    "Microsoft .NET Windows Desktop Runtime 8.0 Preview" = "Microsoft.DotNet.DesktopRuntime.Preview"
+    "Microsoft ASP.NET Core Runtime 8.0 Preview" = "Microsoft.DotNet.AspNetCore.Preview"
+    "Microsoft .NET Runtime 8.0" = "Microsoft.DotNet.Runtime.8"
+    "Microsoft ASP.NET Core Runtime 8.0" = "Microsoft.DotNet.AspNetCore.8"
+    "Microsoft ASP.NET Core Hosting Bundle 8.0" = "Microsoft.DotNet.HostingBundle.8"
+    "Microsoft .NET SDK 8.0" = "Microsoft.DotNet.SDK.8"
+    "Microsoft .NET Windows Desktop Runtime 8.0" = "Microsoft.DotNet.DesktopRuntime.8"
+}
+
+$sqlodbcdrivers = @{
+    "17x64link" = "https://go.microsoft.com/fwlink/?linkid=2249004"
+}
